@@ -11,6 +11,7 @@
     background-image: url("/assets/images/main_page/reklama-pitstsy.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    min-height: 100%;
 }
 
 .card p {
