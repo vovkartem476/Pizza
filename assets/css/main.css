@@ -14,7 +14,7 @@
     min-height: 100%;
 }
 
-.card p {
+.card h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     color: #ffffff;
     font-size: 100px;
     padding-left: 90px;
-    padding-top: 50px;
+    padding-top: 20px;
     text-shadow: rgb(0, 0, 0) 5px 5px 5px;
 
 }
@@ -64,6 +64,7 @@
 
 .pizza:hover {
     transform: scale(1.1);
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1)
 }
 
 .margarita {
